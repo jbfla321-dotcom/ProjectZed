@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176330adbda85a34bb87c4f1120a0d97, type: 3}
+  m_Name: Gear_Rustle
+  m_EditorClassIdentifier: Assembly-CSharp::SoundEvent
+  clips:
+  - {fileID: 8300000, guid: 68ba421425b7fda44b07de5eb7631004, type: 3}
+  - {fileID: 8300000, guid: a192fdc23b1b01e47b9d7a0058b32354, type: 3}
+  - {fileID: 8300000, guid: 6a8db828fddcf15408a02cd513296b10, type: 3}
+  - {fileID: 8300000, guid: f9aa3d56ff1ff1c41999f265676d3b16, type: 3}
+  - {fileID: 8300000, guid: 31a17807acf134f47bbdf10f072de394, type: 3}
+  - {fileID: 8300000, guid: 341adc34b9b87a64d82a59d749fe9f88, type: 3}
+  - {fileID: 8300000, guid: dfbc1e8d311be2e469dfc22d9f1f97e3, type: 3}
+  - {fileID: 8300000, guid: 872adcf52f0e8124ab3cf2f3488eb8d4, type: 3}
+  output: {fileID: 4700818564437050706, guid: ec15e9daf9950594caeecb916dc95851, type: 2}
+  volume: {x: 0.3, y: 0.4}
+  pitch: {x: 0.9, y: 1.1}
+  noImmediateRepeat: 1
+  priority: 150
+  maxVoices: 0
+  spatialBlend: 1
+  minDistance: 1
+  maxDistance: 12
+  midClips: []
+  midDistance: 60
+  midMinDistance: 30
+  farClips: []
+  farDistance: 300
+  farMinDistance: 150
+  crossfade: 60

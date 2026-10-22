@@ -1,0 +1,62 @@
+{
+ "items": [
+  {
+   "item": "chair_rustic",
+   "replaces": "chair",
+   "types": [
+    "Shack",
+    "Cabin"
+   ],
+   "chance": 0.7
+  },
+  {
+   "item": "table_rustic",
+   "replaces": "table_rough",
+   "types": [
+    "Shack",
+    "Cabin"
+   ],
+   "chance": 0.8
+  },
+  {
+   "item": "bed_rustic",
+   "replaces": "bed_single",
+   "types": [
+    "Shack"
+   ],
+   "chance": 0.6
+  },
+  {
+   "item": "chest_rustic",
+   "replaces": "chest",
+   "types": [
+    "Shack",
+    "Cabin",
+    "Farmhouse",
+    "Rambler"
+   ],
+   "chance": 1.0
+  },
+  {
+   "item": "bed_iron",
+   "replaces": "bed_single",
+   "types": [
+    "Cabin",
+    "Shack",
+    "Farmhouse",
+    "Rambler"
+   ],
+   "chance": 0.5
+  },
+  {
+   "item": "couch_leather",
+   "replaces": "couch",
+   "types": [
+    "Rambler",
+    "Farmhouse",
+    "Cabin"
+   ],
+   "chance": 0.5
+  }
+ ]
+}

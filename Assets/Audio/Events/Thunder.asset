@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176330adbda85a34bb87c4f1120a0d97, type: 3}
+  m_Name: Thunder
+  m_EditorClassIdentifier: Assembly-CSharp::SoundEvent
+  clips:
+  - {fileID: 8300000, guid: 1e0b2452733a0554b8293a8f58fa08d6, type: 3}
+  - {fileID: 8300000, guid: 8f861562eb6cb8a4483142644010eafa, type: 3}
+  - {fileID: 8300000, guid: 53ad0b050b2c6e84aa823167f1aca3e2, type: 3}
+  - {fileID: 8300000, guid: 0d8ed070162f93c43a71259c497a16ac, type: 3}
+  - {fileID: 8300000, guid: f0fe4a85a090e73459454599ff6b41b9, type: 3}
+  output: {fileID: 3162325363411180850, guid: ec15e9daf9950594caeecb916dc95851, type: 2}
+  volume: {x: 0.8, y: 1}
+  pitch: {x: 0.85, y: 1.1}
+  noImmediateRepeat: 1
+  priority: 30
+  maxVoices: 3
+  spatialBlend: 1
+  minDistance: 300
+  maxDistance: 6000
+  midClips: []
+  midDistance: 60
+  midMinDistance: 30
+  farClips: []
+  farDistance: 300
+  farMinDistance: 150
+  crossfade: 60

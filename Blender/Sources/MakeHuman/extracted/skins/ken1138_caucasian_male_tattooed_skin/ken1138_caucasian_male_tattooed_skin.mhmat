@@ -1,0 +1,23 @@
+# MakeHuman Material definition
+
+name Caucasion_TatooedMale_Skin_Diffuse
+
+// Color shading attributes
+diffuseColor  1 0.95 0.85
+specularColor  0.02745 0.02745 0.02745
+shininess 1
+opacity 0
+
+// Textures and properties
+diffuseTexture Caucasion_TatooedMale_Skin_Difuse.png
+
+// Shader programme
+shader data/shaders/glsl/phong
+
+// Configure built-in shader defines
+shaderConfig diffuse true
+shaderConfig bump false
+shaderConfig normal  false
+shaderConfig displacement  false
+shaderConfig spec  false
+shaderConfig vertexColors false

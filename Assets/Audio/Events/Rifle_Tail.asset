@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176330adbda85a34bb87c4f1120a0d97, type: 3}
+  m_Name: Rifle_Tail
+  m_EditorClassIdentifier: Assembly-CSharp::SoundEvent
+  clips:
+  - {fileID: 8300000, guid: f386f228dd6a21a45b32a64d6375c83b, type: 3}
+  - {fileID: 8300000, guid: 9c38250232f014d43ab605f5203dc52f, type: 3}
+  - {fileID: 8300000, guid: f92d309e58fb57a4c8c934763622ba24, type: 3}
+  output: {fileID: -4054123352878148009, guid: ec15e9daf9950594caeecb916dc95851, type: 2}
+  volume: {x: 0.4, y: 0.45}
+  pitch: {x: 1.04, y: 1.08}
+  noImmediateRepeat: 1
+  priority: 15
+  maxVoices: 2
+  spatialBlend: 1
+  minDistance: 4
+  maxDistance: 300
+  midClips: []
+  midDistance: 60
+  midMinDistance: 30
+  farClips: []
+  farDistance: 300
+  farMinDistance: 150
+  crossfade: 60

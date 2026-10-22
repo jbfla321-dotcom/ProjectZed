@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176330adbda85a34bb87c4f1120a0d97, type: 3}
+  m_Name: Door_Open
+  m_EditorClassIdentifier: Assembly-CSharp::SoundEvent
+  clips:
+  - {fileID: 8300000, guid: b35e1a9a73af6fe4ea257d51f91e8064, type: 3}
+  - {fileID: 8300000, guid: b0ab127e0d0af194695ab13142ded685, type: 3}
+  - {fileID: 8300000, guid: 1b4437ad2787c314186163c28d36b577, type: 3}
+  output: {fileID: 4700818564437050706, guid: ec15e9daf9950594caeecb916dc95851, type: 2}
+  volume: {x: 0.55, y: 0.7}
+  pitch: {x: 0.93, y: 1.07}
+  noImmediateRepeat: 1
+  priority: 70
+  maxVoices: 0
+  spatialBlend: 1
+  minDistance: 1
+  maxDistance: 25
+  midClips: []
+  midDistance: 60
+  midMinDistance: 30
+  farClips: []
+  farDistance: 300
+  farMinDistance: 150
+  crossfade: 60

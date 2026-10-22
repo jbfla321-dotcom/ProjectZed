@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176330adbda85a34bb87c4f1120a0d97, type: 3}
+  m_Name: Bullet_Crack
+  m_EditorClassIdentifier: Assembly-CSharp::SoundEvent
+  clips:
+  - {fileID: 8300000, guid: 2a68b6dce99a40f4f9e248d83ea005a8, type: 3}
+  - {fileID: 8300000, guid: bc6f617537a28e447afeb71797a87477, type: 3}
+  - {fileID: 8300000, guid: 887e88172fa3e0d4bb23ff3a145ca5ca, type: 3}
+  - {fileID: 8300000, guid: fe0ff2a1690d5654aaa0f74e92a7d594, type: 3}
+  - {fileID: 8300000, guid: d733dba4cc84ef549afd642318fe5f75, type: 3}
+  - {fileID: 8300000, guid: 07b01e3f86c57664a8984c1d6ca8d22f, type: 3}
+  - {fileID: 8300000, guid: 00565373ac5ce8645bd2a9c3dc31d549, type: 3}
+  - {fileID: 8300000, guid: 6084f6f0138415a45b30b78fb69ba3cb, type: 3}
+  output: {fileID: -4054123352878148009, guid: ec15e9daf9950594caeecb916dc95851, type: 2}
+  volume: {x: 0.7, y: 0.9}
+  pitch: {x: 0.9, y: 1.1}
+  noImmediateRepeat: 1
+  priority: 20
+  maxVoices: 0
+  spatialBlend: 1
+  minDistance: 2
+  maxDistance: 40
+  midClips: []
+  midDistance: 60
+  midMinDistance: 30
+  farClips: []
+  farDistance: 300
+  farMinDistance: 150
+  crossfade: 60

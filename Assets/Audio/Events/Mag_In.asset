@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176330adbda85a34bb87c4f1120a0d97, type: 3}
+  m_Name: Mag_In
+  m_EditorClassIdentifier: Assembly-CSharp::SoundEvent
+  clips:
+  - {fileID: 8300000, guid: 6b4a48810b748904f8143ed15c3c063e, type: 3}
+  - {fileID: 8300000, guid: df051e01e9ed562408adc32739a2d59b, type: 3}
+  - {fileID: 8300000, guid: 9d9def85a94ec074d8cb3c38195095de, type: 3}
+  - {fileID: 8300000, guid: 15352ba1623aa964bb148cdfe69a7efd, type: 3}
+  - {fileID: 8300000, guid: 7972d3fea38ef6d4a8c61209738c6701, type: 3}
+  - {fileID: 8300000, guid: 3a9894acb7e82994d9a701cea0e3af54, type: 3}
+  - {fileID: 8300000, guid: d3233196c292a2f4fbdbfaf5db602335, type: 3}
+  - {fileID: 8300000, guid: f5f210510def89542952c5dd2865c451, type: 3}
+  output: {fileID: 4700818564437050706, guid: ec15e9daf9950594caeecb916dc95851, type: 2}
+  volume: {x: 0.7, y: 0.8}
+  pitch: {x: 0.95, y: 1.05}
+  noImmediateRepeat: 1
+  priority: 40
+  maxVoices: 0
+  spatialBlend: 0.7
+  minDistance: 1
+  maxDistance: 15
+  midClips: []
+  midDistance: 60
+  midMinDistance: 30
+  farClips: []
+  farDistance: 300
+  farMinDistance: 150
+  crossfade: 60

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176330adbda85a34bb87c4f1120a0d97, type: 3}
+  m_Name: Impact_Rock
+  m_EditorClassIdentifier: Assembly-CSharp::SoundEvent
+  clips:
+  - {fileID: 8300000, guid: f79fc1b34cce7294c931115653912b5c, type: 3}
+  - {fileID: 8300000, guid: a4d31aa9c12fbf14f95b116cd2251266, type: 3}
+  - {fileID: 8300000, guid: 01c085324ae3bf440960f9f38e8e4700, type: 3}
+  - {fileID: 8300000, guid: b8d98268f2456414ca55befba0bf7274, type: 3}
+  - {fileID: 8300000, guid: 458007777b456bf4cb2f43cc0177a4ad, type: 3}
+  - {fileID: 8300000, guid: 68f34fc39d0de994d8cee6cf92cd7643, type: 3}
+  - {fileID: 8300000, guid: 9d7b39f687dd68d45bb2aa814e72baba, type: 3}
+  - {fileID: 8300000, guid: 09bd46a7be116cd40aa12fc84926e352, type: 3}
+  output: {fileID: -4054123352878148009, guid: ec15e9daf9950594caeecb916dc95851, type: 2}
+  volume: {x: 0.7, y: 0.9}
+  pitch: {x: 0.9, y: 1.1}
+  noImmediateRepeat: 1
+  priority: 60
+  maxVoices: 0
+  spatialBlend: 1
+  minDistance: 1.5
+  maxDistance: 80
+  midClips: []
+  midDistance: 60
+  midMinDistance: 30
+  farClips: []
+  farDistance: 300
+  farMinDistance: 150
+  crossfade: 60

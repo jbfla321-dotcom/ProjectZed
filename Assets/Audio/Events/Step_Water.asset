@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176330adbda85a34bb87c4f1120a0d97, type: 3}
+  m_Name: Step_Water
+  m_EditorClassIdentifier: Assembly-CSharp::SoundEvent
+  clips:
+  - {fileID: 8300000, guid: e04ad905f1ec52243846a2c40a95c12a, type: 3}
+  - {fileID: 8300000, guid: 30bdcd6b29e74564186bf5e4faa3a1db, type: 3}
+  - {fileID: 8300000, guid: 2096cdc76643be547b9145f0cbcf7599, type: 3}
+  - {fileID: 8300000, guid: a6a9c701e26332a40bab8832ad7f7b62, type: 3}
+  - {fileID: 8300000, guid: 52974638912de97458de02c3341015d5, type: 3}
+  - {fileID: 8300000, guid: e6be9a72dff0c04428180374400c9a22, type: 3}
+  - {fileID: 8300000, guid: 8fe24f415c11d2244bc8b9ac419c47c9, type: 3}
+  - {fileID: 8300000, guid: 8d9b54b2f3473d347a523dda422bde77, type: 3}
+  output: {fileID: 4700818564437050706, guid: ec15e9daf9950594caeecb916dc95851, type: 2}
+  volume: {x: 0.55, y: 0.7}
+  pitch: {x: 0.92, y: 1.08}
+  noImmediateRepeat: 1
+  priority: 90
+  maxVoices: 0
+  spatialBlend: 1
+  minDistance: 1
+  maxDistance: 30
+  midClips: []
+  midDistance: 60
+  midMinDistance: 30
+  farClips: []
+  farDistance: 300
+  farMinDistance: 150
+  crossfade: 60

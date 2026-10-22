@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176330adbda85a34bb87c4f1120a0d97, type: 3}
+  m_Name: Rifle_Shot_FP
+  m_EditorClassIdentifier: Assembly-CSharp::SoundEvent
+  clips:
+  - {fileID: 8300000, guid: ca797af615a9750449d3ab7781e3b326, type: 3}
+  - {fileID: 8300000, guid: 94ae20b2906324446aba38274b1af6c1, type: 3}
+  - {fileID: 8300000, guid: 3418da0a0591ade41a234676525307c6, type: 3}
+  - {fileID: 8300000, guid: fc807d68530bc90438ce1838b668e002, type: 3}
+  - {fileID: 8300000, guid: ccb4685e022fcef45a9611cbb2781a83, type: 3}
+  - {fileID: 8300000, guid: 09eabbf7c8a2793478cf5a699f9f7fbd, type: 3}
+  - {fileID: 8300000, guid: 86151a54195a0c44584e147e644e37ec, type: 3}
+  - {fileID: 8300000, guid: 0837969234a52af4a81a1f155732a3b0, type: 3}
+  output: {fileID: -4054123352878148009, guid: ec15e9daf9950594caeecb916dc95851, type: 2}
+  volume: {x: 0.95, y: 1}
+  pitch: {x: 1.06, y: 1.1}
+  noImmediateRepeat: 1
+  priority: 0
+  maxVoices: 4
+  spatialBlend: 0
+  minDistance: 1
+  maxDistance: 50
+  midClips: []
+  midDistance: 60
+  midMinDistance: 30
+  farClips: []
+  farDistance: 300
+  farMinDistance: 150
+  crossfade: 60

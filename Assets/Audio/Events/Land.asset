@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176330adbda85a34bb87c4f1120a0d97, type: 3}
+  m_Name: Land
+  m_EditorClassIdentifier: Assembly-CSharp::SoundEvent
+  clips:
+  - {fileID: 8300000, guid: 5636aec1f732b7f4a8becccb1cd08889, type: 3}
+  - {fileID: 8300000, guid: 975e80d4f7c15d445bde8e74cdbd6ce7, type: 3}
+  - {fileID: 8300000, guid: 8e3aa20a5cca002459b514d543c72cf8, type: 3}
+  - {fileID: 8300000, guid: d9c2328adfd9bd141a6d79038848ba74, type: 3}
+  - {fileID: 8300000, guid: 47b14da299caa014bbd2a53dcb9be513, type: 3}
+  - {fileID: 8300000, guid: 114c1c2bafa9f924fbd1e15e9d1730e2, type: 3}
+  - {fileID: 8300000, guid: 2ab82681ca2c7ce469340da246ce93a9, type: 3}
+  output: {fileID: 4700818564437050706, guid: ec15e9daf9950594caeecb916dc95851, type: 2}
+  volume: {x: 0.7, y: 0.85}
+  pitch: {x: 0.95, y: 1.05}
+  noImmediateRepeat: 1
+  priority: 80
+  maxVoices: 0
+  spatialBlend: 1
+  minDistance: 1
+  maxDistance: 35
+  midClips: []
+  midDistance: 60
+  midMinDistance: 30
+  farClips: []
+  farDistance: 300
+  farMinDistance: 150
+  crossfade: 60

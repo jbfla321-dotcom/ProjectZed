@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176330adbda85a34bb87c4f1120a0d97, type: 3}
+  m_Name: Impact_Metal
+  m_EditorClassIdentifier: Assembly-CSharp::SoundEvent
+  clips:
+  - {fileID: 8300000, guid: d5e7cb297a106934085038c1d9cef73a, type: 3}
+  - {fileID: 8300000, guid: 23b9d860fb412034fa5099c884961d37, type: 3}
+  - {fileID: 8300000, guid: 5945510dc9cc5d5408506c90bff9aaa6, type: 3}
+  - {fileID: 8300000, guid: f3acda4dd7f2af742ad834a9a87250dc, type: 3}
+  - {fileID: 8300000, guid: 785d97233720af74085525b10faf0d4e, type: 3}
+  - {fileID: 8300000, guid: 6f69721f68a939347887addfefe72e13, type: 3}
+  - {fileID: 8300000, guid: 039ce32897583dd49a3fc1c502eab0aa, type: 3}
+  output: {fileID: -4054123352878148009, guid: ec15e9daf9950594caeecb916dc95851, type: 2}
+  volume: {x: 0.7, y: 0.9}
+  pitch: {x: 0.9, y: 1.1}
+  noImmediateRepeat: 1
+  priority: 60
+  maxVoices: 0
+  spatialBlend: 1
+  minDistance: 1.5
+  maxDistance: 80
+  midClips: []
+  midDistance: 60
+  midMinDistance: 30
+  farClips: []
+  farDistance: 300
+  farMinDistance: 150
+  crossfade: 60

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176330adbda85a34bb87c4f1120a0d97, type: 3}
+  m_Name: Rifle_Shot
+  m_EditorClassIdentifier: Assembly-CSharp::SoundEvent
+  clips:
+  - {fileID: 8300000, guid: cab7859319a906e4da51d66605a79632, type: 3}
+  - {fileID: 8300000, guid: 85606f58423a5f44c9461b8fadc513d5, type: 3}
+  - {fileID: 8300000, guid: b4ed1522f9584d5458c4dccc0be7d814, type: 3}
+  - {fileID: 8300000, guid: b281a71d7013c8e43875226cf30eb76c, type: 3}
+  - {fileID: 8300000, guid: 167d3191b49366d4087db37d73df84f8, type: 3}
+  - {fileID: 8300000, guid: 6d3f3f25fb03408498278b38273769fb, type: 3}
+  - {fileID: 8300000, guid: 0e79b0bd54878694587feb6587d779af, type: 3}
+  - {fileID: 8300000, guid: 22162708a27d0cb4fa4d2ae4c5e26de2, type: 3}
+  output: {fileID: -4054123352878148009, guid: ec15e9daf9950594caeecb916dc95851, type: 2}
+  volume: {x: 0.9, y: 1}
+  pitch: {x: 1.04, y: 1.1}
+  noImmediateRepeat: 1
+  priority: 10
+  maxVoices: 8
+  spatialBlend: 1
+  minDistance: 4
+  maxDistance: 1500
+  midClips:
+  - {fileID: 8300000, guid: 2527829fba9bdb84384ce119d2c8d02b, type: 3}
+  - {fileID: 8300000, guid: c21c2fa6890f65c42a36e14a8a25b4fe, type: 3}
+  - {fileID: 8300000, guid: b1019d141a7642e4492db11f5cb3e47b, type: 3}
+  - {fileID: 8300000, guid: f0a449e706afbf4409f98b9bb347c8ba, type: 3}
+  - {fileID: 8300000, guid: 3f7e73f4877c81040ad2c9f14adbb3eb, type: 3}
+  - {fileID: 8300000, guid: c079e9cddee54dc438b43698ba31fa58, type: 3}
+  - {fileID: 8300000, guid: 11cb3189af300b940aa037adc1d24174, type: 3}
+  - {fileID: 8300000, guid: f63e2d9241ac3224eb670edf51f38368, type: 3}
+  midDistance: 80
+  midMinDistance: 30
+  farClips:
+  - {fileID: 8300000, guid: 2764b1fdb113a0342bab7c7db7e31801, type: 3}
+  - {fileID: 8300000, guid: 1e5eadd26415d7e4280d5db9cc93bdc1, type: 3}
+  - {fileID: 8300000, guid: 95b83726266ea93428418c20822a16b9, type: 3}
+  - {fileID: 8300000, guid: e594cc5258923cd4fbb4dca8b15b3049, type: 3}
+  - {fileID: 8300000, guid: cbe40f4ef7733c74890979e75c35a88f, type: 3}
+  - {fileID: 8300000, guid: b0dce5fdbdaf6374ca6fc0db4fcd64fe, type: 3}
+  - {fileID: 8300000, guid: 0e8108b4c6964c44a9bc411d3f11f404, type: 3}
+  - {fileID: 8300000, guid: 9d007945a84a75944ac44fc96bdc64d6, type: 3}
+  farDistance: 350
+  farMinDistance: 150
+  crossfade: 80

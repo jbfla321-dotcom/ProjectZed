@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176330adbda85a34bb87c4f1120a0d97, type: 3}
+  m_Name: Impact_Dirt
+  m_EditorClassIdentifier: Assembly-CSharp::SoundEvent
+  clips:
+  - {fileID: 8300000, guid: a048926b53bc49847acae07617e6b3e3, type: 3}
+  - {fileID: 8300000, guid: 0be352d91d0c1bc4bb66226adcfa1bf8, type: 3}
+  - {fileID: 8300000, guid: a7c3858aa928cce4ca49c0009b4bf166, type: 3}
+  - {fileID: 8300000, guid: d927995c04aa67a4ea03c1916436c25b, type: 3}
+  output: {fileID: -4054123352878148009, guid: ec15e9daf9950594caeecb916dc95851, type: 2}
+  volume: {x: 0.7, y: 0.9}
+  pitch: {x: 0.9, y: 1.1}
+  noImmediateRepeat: 1
+  priority: 60
+  maxVoices: 0
+  spatialBlend: 1
+  minDistance: 1.5
+  maxDistance: 80
+  midClips: []
+  midDistance: 60
+  midMinDistance: 30
+  farClips: []
+  farDistance: 300
+  farMinDistance: 150
+  crossfade: 60

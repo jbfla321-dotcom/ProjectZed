@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59171ff6a17a5f4390a49191e99c7ca, type: 3}
+  m_Name: Footsteps
+  m_EditorClassIdentifier: Assembly-CSharp::SurfaceSounds
+  dirt: {fileID: 11400000, guid: ea9559445b6c2354ba0d580b253757fe, type: 2}
+  forest: {fileID: 11400000, guid: f6b14b1b7c6db19478bc8a5def95eeea, type: 2}
+  gravel: {fileID: 11400000, guid: 0d178930e8c241049baf74735bda68c4, type: 2}
+  wood: {fileID: 11400000, guid: 155a7b6de80ae0244b8ad7966af8bf0d, type: 2}
+  rock: {fileID: 11400000, guid: 9c8a5b47ea027654c8c585382c3f1d01, type: 2}
+  water: {fileID: 11400000, guid: 5316f9c9415ffb64fb08311a3f72b3d4, type: 2}
+  metal: {fileID: 11400000, guid: 9c8a5b47ea027654c8c585382c3f1d01, type: 2}
+  flesh: {fileID: 11400000, guid: ea9559445b6c2354ba0d580b253757fe, type: 2}

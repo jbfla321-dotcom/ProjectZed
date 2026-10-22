@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176330adbda85a34bb87c4f1120a0d97, type: 3}
+  m_Name: Step_Gravel
+  m_EditorClassIdentifier: Assembly-CSharp::SoundEvent
+  clips:
+  - {fileID: 8300000, guid: 82b8a3ccbd0562e4a8319d1502f2fa4d, type: 3}
+  - {fileID: 8300000, guid: e69b3bf895c64304aadcd0c1962c7cc2, type: 3}
+  - {fileID: 8300000, guid: 24fffa2a4f8dd0e44b2cffca06355709, type: 3}
+  - {fileID: 8300000, guid: 8a0621ea007cdd442bc6c290d182910f, type: 3}
+  - {fileID: 8300000, guid: e36eb640c8bf4e74895f0061dd6e4a7a, type: 3}
+  - {fileID: 8300000, guid: a009b7da5b85c7f4b8f464bab71f1c42, type: 3}
+  - {fileID: 8300000, guid: 2c9a11fd0b62ddc42ba13e6ab23dbbd2, type: 3}
+  - {fileID: 8300000, guid: dde16109029a787448eaddf61ef97eb2, type: 3}
+  output: {fileID: 4700818564437050706, guid: ec15e9daf9950594caeecb916dc95851, type: 2}
+  volume: {x: 0.55, y: 0.7}
+  pitch: {x: 0.92, y: 1.08}
+  noImmediateRepeat: 1
+  priority: 90
+  maxVoices: 0
+  spatialBlend: 1
+  minDistance: 1
+  maxDistance: 30
+  midClips: []
+  midDistance: 60
+  midMinDistance: 30
+  farClips: []
+  farDistance: 300
+  farMinDistance: 150
+  crossfade: 60

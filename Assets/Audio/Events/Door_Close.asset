@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176330adbda85a34bb87c4f1120a0d97, type: 3}
+  m_Name: Door_Close
+  m_EditorClassIdentifier: Assembly-CSharp::SoundEvent
+  clips:
+  - {fileID: 8300000, guid: cdb37c54f34fcdc46a4bb2d396896e90, type: 3}
+  - {fileID: 8300000, guid: 4d4941ed7b01d904b87013203d52751e, type: 3}
+  - {fileID: 8300000, guid: 10942e2e782df274d872a875e0a20025, type: 3}
+  - {fileID: 8300000, guid: f9ba7ded34eed3043a8d8dec3e52ca9d, type: 3}
+  - {fileID: 8300000, guid: 1a34babf4854f3d4d93404276c05db05, type: 3}
+  output: {fileID: 4700818564437050706, guid: ec15e9daf9950594caeecb916dc95851, type: 2}
+  volume: {x: 0.5, y: 0.65}
+  pitch: {x: 0.93, y: 1.07}
+  noImmediateRepeat: 1
+  priority: 70
+  maxVoices: 0
+  spatialBlend: 1
+  minDistance: 1
+  maxDistance: 30
+  midClips: []
+  midDistance: 60
+  midMinDistance: 30
+  farClips: []
+  farDistance: 300
+  farMinDistance: 150
+  crossfade: 60
